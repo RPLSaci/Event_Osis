@@ -1,5 +1,6 @@
 [{
     "nama":"Classmeet 2022",
     "deskripsi":"Classmeet 2022 adalah acara yang akan dilakukan tanggal....",
-    "id":"classmeet2022"
+    "id":"classmeet2022",
+    "img":"event/classmeet2022.png"
 }]
