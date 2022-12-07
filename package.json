@@ -4,7 +4,7 @@
   "scripts": {
     "dev": "parcel src/*.html src/**/*.html",
     "build": "parcel build --public-url /event/ src/*.html src/**/*.html",
-    "buildToSch": "parcel build --public-url /event/ src/*.html",
+    "buildToSch": "parcel build --public-url /event/ src/*.html src/**/*.html",
     "buildNotRoot": "parcel build --public-url 'templateTailwind' src/*.html"
   },
   "dependencies": {
