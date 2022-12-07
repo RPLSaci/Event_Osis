@@ -17,9 +17,16 @@ async function main(){
     let res = await fetch("https://raw.githubusercontent.com/RPLSaci/Event_Osis/main/events/list.json")
     let id = new URLSearchParams(window.location.search).get("id")
     if(!id){
-
+        document.querySelector("#nama").innerText = "Event tidak ditemukan"
+        return
     }
     let data = await res.json()
-    console.log(data)
+    let event = data.find(e => e.id===id)
+    if(!event){
+        document.querySelector("#nama").innerText = "Event tidak ditemukan"
+        return 
+    }
+    console.log(event)
+    document.querySelector("#nama").innerText = event.nama
 
 }
