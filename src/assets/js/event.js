@@ -1,6 +1,10 @@
 let date = new Date()
-if(document.getElementById("FooterYear")){
-    document.getElementById("FooterYear").innerText = document.getElementById("FooterYear").innerText.replace("xxxx",date.getFullYear()) 
+
+function changeDate(){
+    if(document.querySelector("#FooterYear")){
+        console.log("tes")
+        document.querySelector("#FooterYear").innerText = document.querySelector("#FooterYear").innerText.replace("xxxx",date.getFullYear()) 
+    }
 }
 
 function getNav(){
@@ -31,4 +35,6 @@ async function main(){
     let Converted = converter.makeHtml(text)
     let el = document.querySelector("#main")
     el.innerHTML += Converted
+
+changeDate()
 }
