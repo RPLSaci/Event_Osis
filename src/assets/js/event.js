@@ -1,5 +1,4 @@
 let date = new Date()
-
 if(document.getElementById("FooterYear")){
     document.getElementById("FooterYear").innerText = document.getElementById("FooterYear").innerText.replace("xxxx",date.getFullYear()) 
 }
@@ -8,11 +7,9 @@ function getNav(){
     document.getElementById("navbar-cta").classList.toggle("hidden")
 }
 
-// var converter = new showdown.Converter(),
-    // text      = '# hello, markdown!',
-    // html      = converter.makeHtml(text);
+let converter = new showdown.Converter()
 
-main()
+main();
 async function main(){
     let res = await fetch("https://raw.githubusercontent.com/RPLSaci/Event_Osis/main/events/list.json")
     let id = new URLSearchParams(window.location.search).get("id")
@@ -29,4 +26,9 @@ async function main(){
     console.log(event)
     document.querySelector("#nama").innerText = event.nama
 
+    let CurrentEvent = await fetch(`https://raw.githubusercontent.com/RPLSaci/Event_Osis/main/events/${event.file}`)
+    let text = await CurrentEvent.text()
+    let Converted = converter.makeHtml(text)
+    let el = document.querySelector("#main")
+    el.innerHTML += Converted
 }

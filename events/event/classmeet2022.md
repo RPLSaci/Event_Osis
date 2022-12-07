@@ -1,4 +1,3 @@
-# Classmeet 2022
 
 ![Banner](https://github.com/RPLSaci/Event_Osis/raw/main/events/event/classmeet2022.png)
 
