@@ -23,7 +23,7 @@ async function fetchEvent(){
           <h2 class="card-title">${element.nama}</h2>
           <p>${element.deskripsi}</p>
           <div class="card-actions justify-end">
-            <a class="btn btn-primary" href="./showEvent?id=${element.id}">Detail</a>
+            <a class="btn btn-primary" href="./showEvent/index.html?id=${element.id}">Detail</a>
           </div>
         </div>
     </div>
