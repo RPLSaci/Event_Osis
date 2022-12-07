@@ -11,5 +11,26 @@ function getNav(){
 fetchEvent()
 async function fetchEvent(){
     let res = await fetch("https://raw.githubusercontent.com/RPLSaci/Event_Osis/main/events/mainMenu.json")
-    console.log((await res.json()))
+    let data = await res.json()
+    console.log(data)
+    for (let i = 0; i < data.length; i++) {
+        const element = data[i];
+        console.log(element)
+        let str = `
+        <div class="card w-96 bg-base-100 shadow-xl image-full">
+        <figure><img src="https://github.com/RPLSaci/Event_Osis/raw/main/events/${element.img}" alt="" /></figure>
+        <div class="card-body">
+          <h2 class="card-title">${element.nama}</h2>
+          <p>${element.deskripsi}</p>
+          <div class="card-actions justify-end">
+            <a class="btn btn-primary" href="./showEvent?id=${element.id}">Detail</a>
+          </div>
+        </div>
+    </div>
+    `
+    const el = document.querySelector("#cards")
+        if(el){
+          el.innerHTML += str
+        }
+    }
 }
