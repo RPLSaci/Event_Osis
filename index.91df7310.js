@@ -1,2 +1,0 @@
-let date=new Date;function getNav(){document.getElementById("navbar-cta").classList.toggle("hidden")}async function fetchEvent(){let e=await fetch("https://raw.githubusercontent.com/RPLSaci/Event_Osis/main/events/mainMenu.json");console.log(await e.json())}document.getElementById("FooterYear")&&(document.getElementById("FooterYear").innerText=document.getElementById("FooterYear").innerText.replace("xxxx",date.getFullYear())),fetchEvent();
-//# sourceMappingURL=index.91df7310.js.map
