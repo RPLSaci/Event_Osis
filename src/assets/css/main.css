@@ -4,6 +4,16 @@
 @tailwind utilities;
 /* purgecss end ignore */
 
+@media (prefers-color-scheme: dark) {
+  .dark\:BG-WhiteOP75 {
+    background-color: rgb(255 255 255 / 0.75)!important;
+  }
+}
+
+.BG-Gray800OP75 {
+  background-color: rgb(31 41 55 / 0.75);;
+}
+
 .absensi#kelas {
     width: 50px
 }
@@ -30,4 +40,13 @@
   h6 {
     @apply text-sm;
   }
+  #main a {
+    @apply btn;
+    @apply btn-primary
+  }
+}
+
+
+#main a {
+  font-weight: 800;
 }
