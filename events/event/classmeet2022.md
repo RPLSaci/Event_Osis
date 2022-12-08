@@ -5,9 +5,12 @@
 MPK-Osis SMAN 1 Cikampek
 
 ## Perlombaan
-- Voli
-- Basket
-- Esport
+- [Volly](?id=VollyCM22)
+- [Basket](?id=BasketCM22)
+- [Esport](?id=EsportCM22)
 
 ## Tanggal
-Kurang tahu
+13 - 15 Desember 2022
+
+## Lokasi
+[SMAN 1 CIKAMPEK](https://sman1cikampek.sch.id)

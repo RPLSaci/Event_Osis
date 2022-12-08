@@ -22,7 +22,7 @@ async function main(){
         return
     }
     let data = await res.json()
-    let event = data.find(e => e.id===id)
+    let event = data.find(e => e.id.toLowerCase()===id.toLowerCase())
     if(!event){
         document.querySelector("#nama").innerText = "Event tidak ditemukan"
         return 
