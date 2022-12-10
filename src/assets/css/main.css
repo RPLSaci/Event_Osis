@@ -23,30 +23,30 @@
 }
 @layer base {
   h1 {
-    @apply text-4xl;
+    @apply text-6xl;
   }
   h2 {
-    @apply text-3xl;
+    @apply text-5xl;
   }
   h3 {
-    @apply text-2xl;
+    @apply text-3xl;
   }
   h4 {
-    @apply text-xl;
+    @apply text-2xl;
   }
   h5 {
-    @apply text-base;
+    @apply text-xl;
   }
   h6 {
-    @apply text-sm;
-  }
-  #main a {
-    @apply btn;
-    @apply btn-primary
+    @apply text-base;
   }
 }
 
-
+#main img {
+  height: 75%;
+  width: 75%;
+  margin:auto;
+}
 #main a {
   font-weight: 800;
 }
