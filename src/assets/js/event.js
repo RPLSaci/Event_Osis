@@ -19,12 +19,14 @@ async function main(){
     let id = new URLSearchParams(window.location.search).get("id")
     if(!id){
         document.querySelector("#nama").innerText = "Event tidak ditemukan"
+        document.querySelector("#fallback").classList.toggle("hidden")
         return
     }
     let data = await res.json()
     let event = data.find(e => e.id.toLowerCase()===id.toLowerCase())
     if(!event){
         document.querySelector("#nama").innerText = "Event tidak ditemukan"
+        document.querySelector("#fallback").classList.toggle("hidden")
         return 
     }
     console.log(event)
