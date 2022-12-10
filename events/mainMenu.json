@@ -1,6 +1,11 @@
 [{
     "nama":"Classmeet 2022",
-    "deskripsi":"Classmeet 2022 adalah acara yang akan dilakukan tanggal....",
+    "deskripsi":"Classmeet 2022 adalah acara dimana akan ada lomba antarkelas",
     "id":"classmeet2022",
     "img":"event/classmeet2022.png"
+},{
+    "nama":"Unjuk Karya 2022",
+    "deskripsi":"Unjuk karya adalah acara yang di buat untuk memenuhi Kegiatan Penguatan Profil Pelajar Pancasila",
+    "id":"unkar2022",
+    "img":"coming/soon.png"
 }]

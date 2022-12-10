@@ -5,13 +5,13 @@
 },{
     "id":"vollycm22",
     "nama":"Volly Classmeet 2022",
-    "file":"event/VollyCM22.md"
+    "file":"extendEvent/VollyCM22.md"
 },{
     "id":"basketcm22",
     "nama":"Basket Classmeet 2022",
-    "file":"event/BasketCM22.md"
+    "file":"extendEvent/BasketCM22.md"
 },{
     "id":"esportcm22",
     "nama":"Esport Classmeet 2022",
-    "file":"event/EsportCM22.md"
+    "file":"extendEvent/EsportCM22.md"
 }]
