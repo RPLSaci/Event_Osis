@@ -12,6 +12,7 @@ fetchEvent()
 async function fetchEvent(){
     let res = await fetch("https://raw.githubusercontent.com/RPLSaci/event/main/events/mainMenu.json")
     let data = await res.json()
+    data = data.reverse()
     console.log(data)
     for (let i = 0; i < data.length; i++) {
         const element = data[i];
