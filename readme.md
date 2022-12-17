@@ -22,6 +22,7 @@ Contoh
 }
 ```
 **path img dimulai dari root folder events**
+
 perlu sadari bahwa `id` itu adalah hal yang akan kita pakai menjadi identitas acara, jadi harus sama penulisannya
 
 
@@ -58,6 +59,15 @@ Mulai menulis file dengan detail mengenai acaranya, format bisa memakai html(yan
 ```
 
 # Selesai
+
+
+
+
+
+
+
+
+
 
 
 ## Tambahan
