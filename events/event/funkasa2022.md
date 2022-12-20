@@ -3,7 +3,7 @@
 
 Festival Unjuk Karya sachie adalah acara yang diadakan untuk memenuhi kegiatan penguatan profil pelajar pancasila
 
-## Poin-poin pelajar pancasila
+## Poin-Poin Pelajar Pancasila
 - (1) Beriman, bertakwa kepada Tuhan Yang Maha Esa dan berakhlak mulia
 - (2) Berkebinekaan global
 - (3) Gotong royong 
