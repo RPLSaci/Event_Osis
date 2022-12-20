@@ -16,6 +16,8 @@ Festival Unjuk Karya sachie adalah acara yang diadakan untuk memenuhi kegiatan p
 - [Super potato crunch](https://www.instagram.com/superpotatocrunch.id/)
 - [Moza.ind](https://www.instagram.com/esmoza.ind/)
 - [Setia Drink](https://www.instagram.com/setiadrink.idn/)
+- [Bsi](https://www.bsi.ac.id/)
+- [Dinas Kesehatan Karawang](https://www.kemkes.go.id/)
 
 ## Tema Festival
 Kelas 10 - Bangunlah jiwa dan raganya
