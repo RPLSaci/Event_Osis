@@ -11,6 +11,11 @@ Festival Unjuk Karya sachie adalah acara yang diadakan untuk memenuhi kegiatan p
 - (5) Bernalar kritis
 - (6) Kreatif
 
+## Sponsor Acara
+- [CGV](https://www.cgv.id/)
+- [Super potato crunch](https://www.instagram.com/superpotatocrunch.id/)
+- [Moza.ind](https://www.instagram.com/esmoza.ind/)
+- [Setia Drink](https://www.instagram.com/setiadrink.idn/)
 
 ## Tema Festival
 Kelas 10 - Bangunlah jiwa dan raganya
@@ -19,7 +24,6 @@ Kelas 11 - Gaya hidup berkelanjutan
 
 ## Tanggal Pelaksanaan
 22-23 Desember 2022
-
 
 ## Lokasi
 [SMAN 1 CIKAMPEK](https://sman1cikampek.sch.id)
