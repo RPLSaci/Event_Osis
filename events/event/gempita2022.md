@@ -1,4 +1,4 @@
-![Banner](https://github.com/RPLSaci/Event_Osis/raw/main/events/event/gempita2022.png)
+![Banner](https://github.com/RPLSaci/Event_Osis/raw/main/events/event/gempita2022.jpeg)
 
 Gempita adalah event dalam merayakan hari pohon sedunia
 
